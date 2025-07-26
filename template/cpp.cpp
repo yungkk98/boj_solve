@@ -1,6 +1,9 @@
-#include <cstdio>
+#include <iostream>
+using namespace std;
 
 int main() {
-    printf("Hello, World!");
+    ios::sync_with_stdio(false);
+	cin.tie(0);
+
     return 0;
 }
